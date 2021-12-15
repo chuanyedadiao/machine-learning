@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+</head>
+<body>
+
+<form action="{{ url_for(get_df) }}" method="get">
+    <input placeholder="文件路径或者文件名" name="filename" type="text">
+    <button type="submit">提交</button>
+    <p id="result1"></p>
+</form>
+
+</body>
+</html>
